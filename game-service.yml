@@ -16,7 +16,6 @@ spec:
       containers:
       - name: game-service
         image: ravinjg/lugx_gaming-game-service
-        imagePullPolicy: Never
         ports:
         - containerPort: 8000
         envFrom:

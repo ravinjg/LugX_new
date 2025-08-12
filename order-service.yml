@@ -16,7 +16,6 @@ spec:
       containers:
       - name: order-service
         image: ravinjg/lugx_gaming-order-service:latest
-        imagePullPolicy: Never
         ports:
         - containerPort: 8000
         envFrom:
